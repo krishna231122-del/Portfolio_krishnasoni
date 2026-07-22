@@ -135,8 +135,8 @@ export const experiences = [
     contents: [
       "✅ Supervised Machine Learning: Regression and Classification – Issued by DeepLearning.AI & Stanford University on Coursera",
       "✅ Software Engineer Intern Certification – Verified by HackerRank",
-      "✅ Advanced Learning Algorithms – DeepLearning.AI",
-      "✅ Data Science Job Simulation Certificate – Lloyds Banking Group’s Data Science on Forage"
+      "✅ Advanced Learning Algorithms – DeepLearning.AI & Stanford University",
+      "✅ HackerRank Certificates — SQL (Advanced)"
     ],
   },
 ];
