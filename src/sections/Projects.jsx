@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Particles } from "../components/Particles";
+import StarsCanvas from "../components/StarsCanvas";
 import Project from "../components/Project";
 import { myProjects } from "../constants";
 import { motion, useMotionValue, useSpring } from "motion/react";
@@ -19,13 +19,7 @@ const Projects = () => {
       onMouseMove={handleMouseMove}
       className="relative overflow-hidden c-space section-spacing"
     >
-      <Particles
-        className="absolute inset-0 -z-50"
-        quantity={100}
-        ease={80}
-        color={"#ffffff"}
-        refresh
-      />
+      <StarsCanvas />
       <h2 className="text-heading">My Projects</h2>
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent mt-12 h-[1px] w-full" />
       {myProjects.map((project) => (

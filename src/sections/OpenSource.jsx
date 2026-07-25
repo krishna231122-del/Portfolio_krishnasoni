@@ -1,8 +1,10 @@
 import React from 'react';
+import StarsCanvas from '../components/StarsCanvas';
 
 const OpenSource = () => {
   return (
     <section id="opensource" className="relative overflow-hidden c-space section-spacing">
+      <StarsCanvas />
       <h2 className="text-heading">Open Source</h2>
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent mt-12 h-[1px] w-full" />
       

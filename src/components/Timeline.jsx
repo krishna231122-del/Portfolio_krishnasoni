@@ -1,7 +1,7 @@
 "use client";
 import { useScroll, useTransform, motion } from "framer-motion";
 import React, { useEffect, useRef, useState } from "react";
-import { Particles } from "./Particles";
+import StarsCanvas from "./StarsCanvas";
 
 export const Timeline = ({ data }) => {
   const ref = useRef(null);
@@ -25,13 +25,7 @@ export const Timeline = ({ data }) => {
 
   return (
     <div className="relative overflow-hidden c-space section-spacing" ref={containerRef}>
-      <Particles
-        className="absolute inset-0 -z-50"
-        quantity={100}
-        ease={80}
-        color={"#ffffff"}
-        refresh
-      />
+      <StarsCanvas />
       <h2 className="text-heading">Education and Certification</h2>
       <div ref={ref} className="relative pb-20">
         {data.map((item, index) => (
