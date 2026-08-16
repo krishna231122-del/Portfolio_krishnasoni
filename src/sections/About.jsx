@@ -19,8 +19,7 @@ const About = () => {
           <div className="z-10">
             <p className="headtext">Hi, I'm Krishna Soni</p>
             <p className="subtext">
-              I am an AI/ML engineer specializing in Retrieval-Augmented Generation (RAG)
-              and agentic workflows, with experience building production-grade solutions.
+              I am an AI/ML engineer specializing in Retrieval-Augmented Generation and agentic systems, with hands-on experience building production-grade RAG pipelines, multi-agent research frameworks, and LangGraph-based recruiting workflows. Focused on applying evaluation-driven development to move beyond prototype-stage AI systems toward measurable, deployable products.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-evets-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t from-indigo" />

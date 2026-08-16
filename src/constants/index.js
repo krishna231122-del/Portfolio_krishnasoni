@@ -3,11 +3,11 @@ export const myProjects = [
     id: 1,
     title: "AI Research Framework",
     description:
-      "Designed a cooperative network of autonomous AI agents with distinct roles and independent LLM configurations to parallelize research tasks.",
+      "Designed a cooperative multi-agent system with independent LLM configs and a stateful pipeline separating web discovery, synthesis, and report generation.",
     subDescription: [
-      "Built a stateful task pipeline separating web discovery, content synthesis, and report generation.",
-      "Exposed agent tools via a decorator-based system with built-in error handling.",
-      "Shipped an interactive Streamlit dashboard with deterministic management using the uv package engine."
+      "Exposed agent tools via a decorator-based system with error handling.",
+      "Exposed core agent pipeline functionality via a FastAPI REST API, decoupling backend logic from the Streamlit frontend for independent testing and reuse.",
+      "Shipped an interactive Streamlit dashboard with deterministic dependency management using the uv package engine, and implemented Streamlit-native authentication with bcrypt and SQLAlchemy."
     ],
     href: "https://github.com/krishna231122-del/Research_agent",
     logo: "",
@@ -34,11 +34,9 @@ export const myProjects = [
     id: 2,
     title: "AI Video Assistant with RAG Pipeline",
     description:
-      "Engineered a multimodal pipeline that ingests raw video, extracts audio, and generates clean transcripts for downstream querying.",
+      "Engineered a multimodal pipeline that ingests raw video, extracts audio, and generates transcripts.",
     subDescription: [
-      "Implemented a RAG workflow using Mistral AI with transcript chunking.",
-      "Achieved precise, context-aware answers without overloading the LLM’s context window.",
-      "Integrated audio extraction and processing scripts for seamless pipeline execution."
+      "Answers queries via a RAG workflow using Mistral AI with transcript chunking to stay within context window limits."
     ],
     href: "https://github.com/krishna231122-del/AI-VIDEO-ASSISTANT-RAG-",
     logo: "",
@@ -65,11 +63,10 @@ export const myProjects = [
     id: 3,
     title: "AI Recruiting Matching Agent",
     description:
-      "Built an agentic LangGraph pipeline with a multi-node workflow and a human-in-the-loop feedback node.",
+      "Designed the system architecture for an agentic LangGraph pipeline — multi-node workflow plus a human-in-the-loop feedback node.",
     subDescription: [
-      "Implemented JD parsing, requirement extraction, RAG-based resume search, and candidate ranking.",
-      "Used Mistral embeddings and ChromaDB for semantic matching.",
-      "Built an evaluation harness measuring retrieval quality, achieving 0.92 recall@3 and 0.90 nDCG@3 across test queries."
+      "Implemented JD parsing, requirement extraction, hybrid RAG resume search via ChromaDB dense + BM25 sparse retrieval with Mistral embeddings, and multi-round candidate ranking.",
+      "Built an evaluation harness measuring retrieval quality against hand-labeled ground truth, achieving 0.92 recall@3 and 0.90 nDCG@3 across 6 test queries spanning in-domain and out-of-domain resumes."
     ],
     href: "https://github.com/krishna231122-del/Agentic-Profile-Matching",
     logo: "",
@@ -118,6 +115,18 @@ export const mySocials = [
 ];
 
 export const experiences = [
+  {
+    title: "Technical Skills",
+    job: "Languages, Databases, Infrastructure & AI Frameworks",
+    date: "Core Competencies",
+    contents: [
+      "Languages & Frameworks: Python (FastAPI), C++, Go, JavaScript, TypeScript (Node.js)",
+      "Databases & Caching: PostgreSQL, MySQL, MongoDB, Redis, ChromaDB, Qdrant (Vector DBs)",
+      "Infrastructure & DevOps: Docker, AWS (EC2/S3), Git, CI/CD, MCP, Streamlit Cloud",
+      "Concepts: RAG, Hybrid Search, LLD, System Design, Agentic Workflows, Neural Networks, Supervised/Unsupervised Learning, Fine-Tuning, Feature Engineering, Evaluation Metrics",
+      "AI/ML Frameworks: PyTorch, TensorFlow, LangChain (AI Agents), LangGraph, Scikit-learn, Deep Learning, NLP"
+    ],
+  },
   {
     title: "Bachelor of Technology in ECE",
     job: "University of Petroleum and Energy Studies",
