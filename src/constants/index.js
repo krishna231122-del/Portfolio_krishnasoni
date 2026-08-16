@@ -122,19 +122,28 @@ export const experiences = [
     contents: [
       "Languages & Frameworks: Python (FastAPI), C++, Go, JavaScript, TypeScript (Node.js)",
       "Databases & Caching: PostgreSQL, MySQL, MongoDB, Redis, ChromaDB, Qdrant (Vector DBs)",
-      "Infrastructure & DevOps: Docker, AWS (EC2/S3), Git, CI/CD, MCP, Streamlit Cloud",
-      "Concepts: RAG, Hybrid Search, LLD, System Design, Agentic Workflows, Neural Networks, Supervised/Unsupervised Learning, Fine-Tuning, Feature Engineering, Evaluation Metrics",
+      "Infrastructure & DevOps: Docker, AWS (EC2/S3), Git, CI/CD, MCP (Model Context Protocol), Streamlit Cloud",
+      "Concepts: Retrieval-Augmented Generation (RAG), Hybrid Search, Low-Level Design (LLD), System Design, Agentic Workflows, Neural Networks, Supervised/Unsupervised Learning, Fine-Tuning, Feature Engineering, Evaluation Metrics",
       "AI/ML Frameworks: PyTorch, TensorFlow, LangChain (AI Agents), LangGraph, Scikit-learn, Deep Learning, NLP"
     ],
   },
   {
     title: "Bachelor of Technology in ECE",
     job: "University of Petroleum and Energy Studies",
-    date: "2025 - 2029",
+    date: "Aug 2025 - May 2029",
     contents: [
       "Pursuing B.Tech in Electronics and Communication Engineering.",
       "CGPA: 7.85",
       "Focused on Retrieval-Augmented Generation, Agentic Workflows, Neural Networks, Deep Learning, and NLP."
+    ],
+  },
+  {
+    title: "Open Source Contributor",
+    job: "Mem0 (Memory layer for LLMs)",
+    date: "GitHub Open Source",
+    contents: [
+      "Contributed a merged pull request to Mem0, an open-source memory layer for LLM applications.",
+      "Improved the project's codebase through the GitHub review process with project maintainers."
     ],
   },
   {
