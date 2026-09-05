@@ -139,11 +139,12 @@ export const experiences = [
   },
   {
     title: "Open Source Contributor",
-    job: "Mem0 (Memory layer for LLMs)",
+    job: "Mem0 & RAGFlow (Infiniflow)",
     date: "GitHub Open Source",
     contents: [
       "Contributed a merged pull request to Mem0, an open-source memory layer for LLM applications.",
-      "Improved the project's codebase through the GitHub review process with project maintainers."
+      "Contributed a pull request to RAGFlow (by Infiniflow), an open-source RAG engine based on deep document understanding.",
+      "Improved projects' codebase through the GitHub review process with project maintainers."
     ],
   },
   {

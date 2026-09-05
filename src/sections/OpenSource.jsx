@@ -28,6 +28,27 @@ const OpenSource = () => {
         </div>
       </div>
       <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
+      
+      <div className="flex-wrap items-center justify-between py-10 space-y-14 sm:flex sm:space-y-0">
+        <div className="max-w-3xl">
+          <p className="text-2xl">RAGFlow (Infiniflow)</p>
+          <div className="mt-4 text-gray-400">
+            Contributed a pull request to RAGFlow, an open-source RAG engine based on deep document understanding.
+          </div>
+        </div>
+        <div className="flex items-center gap-6 mt-6 sm:mt-0">
+          <a
+            href="https://github.com/infiniflow/ragflow/pull/18534"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-1 cursor-pointer hover-animation"
+          >
+            GitHub PR
+            <img src="/assets/logos/github.svg" className="w-5 h-5" style={{ filter: "brightness(0) invert(1)" }} alt="GitHub Logo" />
+          </a>
+        </div>
+      </div>
+      <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
     </section>
   );
 };
